@@ -70,14 +70,14 @@ class Contact extends Component {
                                         <i className="fas fa-map-marker-alt"></i>
                                         <span>Address:</span>
 
-                                        1828 Johns Drive Glenview, IL 60025
+                                        C6 North Ofankor Hills Estates, Pokuase, Ghana.
                                     </li>
 
                                     <li>
                                         <i className="fas fa-envelope"></i>
                                         <span>Email:</span>
                                         
-                                        <a href="#">support@pluck.com</a>
+                                        <a href="#">info@empowerghana.org</a>
                                     </li>
 
                                     <li>
@@ -91,7 +91,7 @@ class Contact extends Component {
                                         <i className="fas fa-globe"></i>
                                         <span>Website:</span>
                                         
-                                        <a href="#">www.pluck.com</a>
+                                        <a href="#">www.empowerghana.org</a>
                                     </li>
                                 </ul>
                             </div>

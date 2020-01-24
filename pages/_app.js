@@ -20,8 +20,8 @@ export default class MyApp extends App {
                     openGraph={{
                         type: 'website',
                         locale: 'en_IE',
-                        url: 'https://genial-react.envytheme.com/',
-                        site_name: 'Genial - React Next Multi-Niche Landing Templates',
+                        url: 'https://empowerghana.org/',
+                        site_name: 'Empower Ghana - React Next Multi-Niche Landing Templates',
                     }}
                 />
 

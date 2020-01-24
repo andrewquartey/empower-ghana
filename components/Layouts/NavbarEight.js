@@ -86,50 +86,56 @@ class NavbarEight extends Component {
                     <div className={classOne} id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <AnchorLink 
-                                    onClick={this.toggleNavbar} 
+                                <a 
                                     offset={() => 100} 
                                     className="nav-link active" 
-                                    href="#home"
+                                    href="/"
                                 >
                                     Home
-                                </AnchorLink>
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
-                                    onClick={this.toggleNavbar} 
+                                <a 
                                     offset={() => 0} 
                                     className="nav-link" 
-                                    href="#features"
+                                    href="/about"
                                 >
-                                    Features
-                                </AnchorLink>
+                                    About Us
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
-                                    onClick={this.toggleNavbar} 
+                                <a 
                                     offset={() => 0} 
                                     className="nav-link" 
-                                    href="#how-it-works"
+                                    href="/gallery"
                                 >
-                                    How It Works
-                                </AnchorLink>
+                                    Gallery
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <AnchorLink 
+                                <a 
+                                    offset={() => 0} 
+                                    className="nav-link" 
+                                    href="/events"
+                                >
+                                    News & Events
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a 
                                     onClick={this.toggleNavbar} 
                                     offset={() => -10} 
                                     className="nav-link" 
-                                    href="#contact"
+                                    href="/#contact"
                                 >
-                                    Support
-                                </AnchorLink>
+                                    Contact Us
+                                </a>
                             </li>
                         </ul>
 
                         <ul className="others-option">
                             <li>
-                                <a href="/signin" className="btn btn-primary">sign in</a>
+                                <a href="/volunteer" className="btn btn-primary">Volunteer</a>
                             </li>
                         </ul>
                     </div>

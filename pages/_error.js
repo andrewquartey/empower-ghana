@@ -24,11 +24,11 @@ class Error extends React.Component {
                         <div className="error-content">
                             <img src={require("../images/404.png")} alt="error" />
 
-                            <form className="search-form">
+                            {/* <form className="search-form">
                                 <input type="text" className="search-field" placeholder="search" />
 
                                 <button type="submit" className="search-submit">Search</button>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </section>

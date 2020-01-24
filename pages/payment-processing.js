@@ -10,7 +10,7 @@ import NewFeatures from '../components/PaymentProcessing/NewFeatures';
 import Platform from '../components/PaymentProcessing/Platform';
 import Funfact from '../components/PaymentProcessing/Funfact';
 import ShopOnline from '../components/PaymentProcessing/ShopOnline';
-import Contact from '../components/PaymentProcessing/Contact';
+import Contact from '../components/Agency/Contact';
 
 class Index extends Component {
     render() {
