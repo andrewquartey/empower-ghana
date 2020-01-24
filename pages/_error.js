@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import NavbarSix from '../components/Layouts/NavbarSix';
 import Footer from '../components/Layouts/Footer';
 
@@ -7,7 +7,7 @@ class Error extends React.Component {
         const statusCode = res ? res.statusCode : err ? err.statusCode : null;
         return { statusCode };
     }
-  
+
     render() {
         return (
             <React.Fragment>
@@ -22,7 +22,7 @@ class Error extends React.Component {
                 <section className="error-area ptb-100">
                     <div className="container">
                         <div className="error-content">
-                            <img src={require("../images/404.png")} alt="error" />
+                            <img src={require('../images/404.png')} alt="error" />
 
                             {/* <form className="search-form">
                                 <input type="text" className="search-field" placeholder="search" />
@@ -38,5 +38,5 @@ class Error extends React.Component {
         );
     }
 }
-  
+
 export default Error;

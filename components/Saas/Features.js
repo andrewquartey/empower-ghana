@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-const isServer = typeof window === 'undefined'
-const WOW = !isServer ? require('wowjs') : null
+const isServer = typeof window === 'undefined';
+const WOW = !isServer ? require('wowjs') : null;
 
 class Features extends Component {
-
-    componentDidMount(){ 
+    componentDidMount() {
         new WOW.WOW({
             boxClass: 'wow',
             animateClass: 'animated',
             offset: 20,
-            mobile:       true,
-            live:         true,
+            mobile: true,
+            live: true
         }).init();
     }
 
@@ -21,7 +20,10 @@ class Features extends Component {
                     <div className="saas-section-title">
                         <h2>Our Amazing Features</h2>
                         <div className="bar"></div>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
                     </div>
 
                     <div className="row align-items-center">
@@ -31,7 +33,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="far fa-hand-point-up"></i>
-
                                             Drag and Drop
                                         </div>
                                     </div>
@@ -39,7 +40,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="far fa-gem"></i>
-
                                             Fully Customizable
                                         </div>
                                     </div>
@@ -47,7 +47,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-fighter-jet"></i>
-
                                             App Integration
                                         </div>
                                     </div>
@@ -55,7 +54,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-lock"></i>
-
                                             Private and Security
                                         </div>
                                     </div>
@@ -63,7 +61,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-magic"></i>
-
                                             High Quality
                                         </div>
                                     </div>
@@ -71,7 +68,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-location-arrow"></i>
-
                                             Easy To Use
                                         </div>
                                     </div>
@@ -79,7 +75,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-compress"></i>
-
                                             Pixel Precision
                                         </div>
                                     </div>
@@ -87,7 +82,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-cloud"></i>
-
                                             Cloud Service
                                         </div>
                                     </div>
@@ -95,7 +89,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-edit"></i>
-
                                             Vector Editing
                                         </div>
                                     </div>
@@ -103,7 +96,6 @@ class Features extends Component {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
                                             <i className="fas fa-cogs"></i>
-
                                             Latest Technology
                                         </div>
                                     </div>
@@ -113,8 +105,17 @@ class Features extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="features-image">
-                                <img src={require("../../images/main-pic.png")} className="wow fadeInUp" data-wow-delay="0.6s" alt="main-pic" />
-                                <img src={require("../../images/circle-shape.png")} className="rotate-image rotateme" alt="circle" />
+                                <img
+                                    src={require('../../images/main-pic.png')}
+                                    className="wow fadeInUp"
+                                    data-wow-delay="0.6s"
+                                    alt="main-pic"
+                                />
+                                <img
+                                    src={require('../../images/circle-shape.png')}
+                                    className="rotate-image rotateme"
+                                    alt="circle"
+                                />
                             </div>
                         </div>
                     </div>

@@ -5,14 +5,14 @@ import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 
 import { Preloader, Placeholder } from 'react-preloading-screen';
-import App, {Container} from 'next/app';
+import App, { Container } from 'next/app';
 import { DefaultSeo } from 'next-seo';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
 export default class MyApp extends App {
-    render () {
-        const { Component, pageProps } = this.props
+    render() {
+        const { Component, pageProps } = this.props;
 
         return (
             <Container>
@@ -21,7 +21,7 @@ export default class MyApp extends App {
                         type: 'website',
                         locale: 'en_IE',
                         url: 'https://empowerghana.org/',
-                        site_name: 'Empower Ghana - React Next Multi-Niche Landing Templates',
+                        site_name: 'Empower Ghana - React Next Multi-Niche Landing Templates'
                     }}
                 />
 

@@ -9,7 +9,9 @@ class Contact extends Component {
                         <div className="col-lg-6 col-md-6">
                             <div className="contact-box">
                                 <h3>Ready to go?</h3>
-                                <a href="#" className="btn btn-primary">Browse Cars</a>
+                                <a href="#" className="btn btn-primary">
+                                    Browse Cars
+                                </a>
                             </div>
                         </div>
 
@@ -17,8 +19,12 @@ class Contact extends Component {
                             <div className="contact-box">
                                 <h3>Have question?</h3>
                                 <ul>
-                                    <li><a href="#">Read our FAQ</a></li>
-                                    <li><a href="#">support@pluck.com</a></li>
+                                    <li>
+                                        <a href="#">Read our FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">support@pluck.com</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

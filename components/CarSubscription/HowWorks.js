@@ -8,7 +8,7 @@ class HowWorks extends Component {
                     <div className="car-subscription-section-title">
                         <span>About</span>
                         <h2>How it Works</h2>
-                        <img src={require("../../images/car-icon.png")} alt="image" />
+                        <img src={require('../../images/car-icon.png')} alt="image" />
                     </div>
 
                     <div className="row">
@@ -16,7 +16,9 @@ class HowWorks extends Component {
                             <div className="single-work-process">
                                 <span>.01</span>
                                 <h3>Select Your Car</h3>
-                                <p>This should be used to tell a story and talk about your product.</p>
+                                <p>
+                                    This should be used to tell a story and talk about your product.
+                                </p>
                             </div>
                         </div>
 
@@ -24,7 +26,9 @@ class HowWorks extends Component {
                             <div className="single-work-process">
                                 <span>.02</span>
                                 <h3>Confirm The Pickup</h3>
-                                <p>This should be used to tell a story and talk about your product.</p>
+                                <p>
+                                    This should be used to tell a story and talk about your product.
+                                </p>
                             </div>
                         </div>
 
@@ -32,7 +36,9 @@ class HowWorks extends Component {
                             <div className="single-work-process">
                                 <span>.03</span>
                                 <h3>Drive</h3>
-                                <p>This should be used to tell a story and talk about your product.</p>
+                                <p>
+                                    This should be used to tell a story and talk about your product.
+                                </p>
                             </div>
                         </div>
                     </div>

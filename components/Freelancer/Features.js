@@ -10,7 +10,11 @@ class Features extends Component {
                             <div className="single-box">
                                 <i className="fas fa-bezier-curve"></i>
                                 <h3>Stunning Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -18,7 +22,11 @@ class Features extends Component {
                             <div className="single-box">
                                 <i className="fas fa-filter"></i>
                                 <h3>Intelligent Interactions</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -26,7 +34,11 @@ class Features extends Component {
                             <div className="single-box">
                                 <i className="fas fa-headset"></i>
                                 <h3>24/7 Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,10 @@ class About extends Component {
                                     <i className="fas fa-camera"></i>
                                 </div>
                                 <h3>Camera Filter</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
                             </div>
                         </div>
 
@@ -22,7 +25,10 @@ class About extends Component {
                                     <i className="fas fa-fighter-jet"></i>
                                 </div>
                                 <h3>Fast and optimized</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
                             </div>
                         </div>
 
@@ -32,7 +38,10 @@ class About extends Component {
                                     <i className="far fa-hand-pointer"></i>
                                 </div>
                                 <h3>Drag and Drop</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -43,7 +52,7 @@ class About extends Component {
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-image">
-                                    <img src={require("../../images/laptop.png")} alt="about" />
+                                    <img src={require('../../images/laptop.png')} alt="about" />
                                 </div>
                             </div>
 
@@ -54,7 +63,12 @@ class About extends Component {
                                             <i className="fas fa-phone"></i>
                                         </div>
                                         <h3>Free Caliing Service</h3>
-                                        <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
+                                        <p>
+                                            Plan ahead by day, week, or month, and see project
+                                            status at a glance. Search and filter to focus in on
+                                            anything form a single project to an individual person's
+                                            workload.
+                                        </p>
                                     </div>
 
                                     <div className="about-item">
@@ -62,7 +76,12 @@ class About extends Component {
                                             <i className="fas fa-gift"></i>
                                         </div>
                                         <h3>Daily Free Gift</h3>
-                                        <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
+                                        <p>
+                                            Plan ahead by day, week, or month, and see project
+                                            status at a glance. Search and filter to focus in on
+                                            anything form a single project to an individual person's
+                                            workload.
+                                        </p>
                                     </div>
 
                                     <div className="about-item">
@@ -70,7 +89,12 @@ class About extends Component {
                                             <i className="fas fa-qrcode"></i>
                                         </div>
                                         <h3>QR Code Scaner</h3>
-                                        <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
+                                        <p>
+                                            Plan ahead by day, week, or month, and see project
+                                            status at a glance. Search and filter to focus in on
+                                            anything form a single project to an individual person's
+                                            workload.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

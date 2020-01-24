@@ -4,15 +4,13 @@ import ModalVideo from 'react-modal-video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
 class Cta extends Component {
-
     state = {
         isOpen: false
     };
 
     openModal = () => {
-        this.setState({isOpen: true})
+        this.setState({ isOpen: true });
     };
-
 
     render() {
         return (
@@ -21,11 +19,17 @@ class Cta extends Component {
                     <div className="container">
                         <div className="cta-content">
                             <h2>We always try to quality work</h2>
-                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>
+                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                                maecenas accumsan lacus vel facilisis.
+                            </p>
                             <Link href="#">
                                 <a
                                     className="popup-youtube video-btn"
-                                    onClick={e => {e.preventDefault(); this.openModal()}}
+                                    onClick={e => {
+                                        e.preventDefault();
+                                        this.openModal();
+                                    }}
                                 >
                                     <i className="fas fa-play"></i>
                                 </a>
@@ -38,7 +42,11 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                         <i className="fas fa-layer-group"></i>
                                         <h3>Modern Design</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -46,7 +54,11 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                         <i className="fas fa-fighter-jet"></i>
                                         <h3>Fast Loading</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -54,7 +66,11 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                         <i className="fas fa-broom"></i>
                                         <h3>Clean Code</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -62,11 +78,11 @@ class Cta extends Component {
                     </div>
                 </section>
 
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
+                <ModalVideo
+                    channel="youtube"
+                    isOpen={this.state.isOpen}
+                    videoId="szuchBiLrEM"
+                    onClose={() => this.setState({ isOpen: false })}
                 />
             </React.Fragment>
         );

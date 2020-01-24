@@ -10,7 +10,10 @@ class Cta extends Component {
                             <div className="cta-content-five">
                                 <span>Smart Payment</span>
                                 <h2>Remove payment pains with Direct Debit</h2>
-                                <p>This should be used to tell a story about your product or service. How can you benefit them?</p>
+                                <p>
+                                    This should be used to tell a story about your product or
+                                    service. How can you benefit them?
+                                </p>
 
                                 <div className="row">
                                     <div className="col-lg-4 col-md-4">
@@ -39,7 +42,7 @@ class Cta extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="cta-image">
-                                <img src={require("../../images/man-and-women.png")} alt="image" />
+                                <img src={require('../../images/man-and-women.png')} alt="image" />
                             </div>
                         </div>
                     </div>

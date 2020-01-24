@@ -15,8 +15,12 @@ class Contact extends Component {
 
                         <div className="col-lg-6">
                             <div className="contact-connect">
-                                <a href="#" className="btn btn-primary">Sign Up Now</a>
-                                <a href="mailto:pluck@gmail.com" className="talk-to-sales">Talk to Sales</a>
+                                <a href="#" className="btn btn-primary">
+                                    Sign Up Now
+                                </a>
+                                <a href="mailto:pluck@gmail.com" className="talk-to-sales">
+                                    Talk to Sales
+                                </a>
                             </div>
                         </div>
                     </div>

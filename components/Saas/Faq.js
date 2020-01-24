@@ -17,7 +17,10 @@ class Faq extends Component {
                     <div className="saas-section-title">
                         <h2>Frequently Asked Question</h2>
                         <div className="bar"></div>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
                     </div>
 
                     <div className="faq">
@@ -30,7 +33,9 @@ class Faq extends Component {
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. incididunt ut labore et dolore magna aliqua.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -42,20 +47,9 @@ class Faq extends Component {
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                        Is Smart Lock required for instant apps?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. incididunt ut labore et dolore magna aliqua.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -68,7 +62,9 @@ class Faq extends Component {
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. incididunt ut labore et dolore magna aliqua.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -81,7 +77,24 @@ class Faq extends Component {
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Is Smart Lock required for instant apps?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. incididunt ut labore et dolore magna aliqua.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>

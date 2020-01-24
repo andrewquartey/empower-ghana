@@ -8,7 +8,7 @@ class Pricing extends Component {
                     <div className="car-subscription-section-title">
                         <span>Pricing</span>
                         <h2>Pluck monthly Plans</h2>
-                        <img src={require("../../images/car-icon.png")} alt="car-icon" />
+                        <img src={require('../../images/car-icon.png')} alt="car-icon" />
                     </div>
 
                     <div className="row">
@@ -23,10 +23,20 @@ class Pricing extends Component {
                                 </div>
 
                                 <ul className="pricing-features">
-                                    <li><i className="fas fa-check-circle"></i> insurance included</li>
-                                    <li><i className="fas fa-check-circle"></i> Toyota Yaris or Similar</li>
-                                    <li><i className="fas fa-check-circle"></i> insurance included</li>
-                                    <li><i className="fas fa-check-circle"></i> Toyota Yaris or Similar</li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> insurance included
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> Toyota Yaris or
+                                        Similar
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> insurance included
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> Toyota Yaris or
+                                        Similar
+                                    </li>
                                 </ul>
 
                                 <div className="price">
@@ -34,7 +44,9 @@ class Pricing extends Component {
                                     <span>Per month + tax</span>
                                 </div>
 
-                                <a href="#" className="select-btn">Select</a>
+                                <a href="#" className="select-btn">
+                                    Select
+                                </a>
                             </div>
                         </div>
 
@@ -49,10 +61,20 @@ class Pricing extends Component {
                                 </div>
 
                                 <ul className="pricing-features">
-                                    <li><i className="fas fa-check-circle"></i> insurance included</li>
-                                    <li><i className="fas fa-check-circle"></i> Toyota Yaris or Similar</li>
-                                    <li><i className="fas fa-check-circle"></i> insurance included</li>
-                                    <li><i className="fas fa-check-circle"></i> Toyota Yaris or Similar</li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> insurance included
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> Toyota Yaris or
+                                        Similar
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> insurance included
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> Toyota Yaris or
+                                        Similar
+                                    </li>
                                 </ul>
 
                                 <div className="price">
@@ -60,7 +82,9 @@ class Pricing extends Component {
                                     <span>Per month + tax</span>
                                 </div>
 
-                                <a href="#" className="select-btn">Select</a>
+                                <a href="#" className="select-btn">
+                                    Select
+                                </a>
                             </div>
                         </div>
 
@@ -75,10 +99,20 @@ class Pricing extends Component {
                                 </div>
 
                                 <ul className="pricing-features">
-                                    <li><i className="fas fa-check-circle"></i> insurance included</li>
-                                    <li><i className="fas fa-check-circle"></i> Toyota Yaris or Similar</li>
-                                    <li><i className="fas fa-check-circle"></i> insurance included</li>
-                                    <li><i className="fas fa-check-circle"></i> Toyota Yaris or Similar</li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> insurance included
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> Toyota Yaris or
+                                        Similar
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> insurance included
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-check-circle"></i> Toyota Yaris or
+                                        Similar
+                                    </li>
                                 </ul>
 
                                 <div className="price">
@@ -86,7 +120,9 @@ class Pricing extends Component {
                                     <span>Per month + tax</span>
                                 </div>
 
-                                <a href="#" className="select-btn">Select</a>
+                                <a href="#" className="select-btn">
+                                    Select
+                                </a>
                             </div>
                         </div>
                     </div>

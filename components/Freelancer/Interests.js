@@ -6,8 +6,13 @@ class Interests extends Component {
             <section className="my-interests ptb-100 pt-0">
                 <div className="container">
                     <div className="freelancer-section-title">
-                        <h2>My <span>Interests</span></h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <h2>
+                            My <span>Interests</span>
+                        </h2>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
                     </div>
 
                     <div className="row">

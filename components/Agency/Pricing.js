@@ -7,7 +7,10 @@ class Pricing extends Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>Our Pricing</h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
                     </div>
 
                     <div className="row">
@@ -37,7 +40,9 @@ class Pricing extends Component {
                                     <span>Per month</span>
                                 </div>
 
-                                <a href="#" className="btn btn-primary">Select</a>
+                                <a href="#" className="btn btn-primary">
+                                    Select
+                                </a>
                             </div>
                         </div>
 
@@ -67,7 +72,9 @@ class Pricing extends Component {
                                     <span>Per month</span>
                                 </div>
 
-                                <a href="#" className="btn btn-primary">Select</a>
+                                <a href="#" className="btn btn-primary">
+                                    Select
+                                </a>
                             </div>
                         </div>
 
@@ -97,7 +104,9 @@ class Pricing extends Component {
                                     <span>Per month</span>
                                 </div>
 
-                                <a href="#" className="btn btn-primary">Select</a>
+                                <a href="#" className="btn btn-primary">
+                                    Select
+                                </a>
                             </div>
                         </div>
                     </div>

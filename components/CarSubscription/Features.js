@@ -10,7 +10,10 @@ class Features extends Component {
                             <div className="lead-generation-features-content">
                                 <span>Our Features</span>
                                 <h2>We Provide The Solutions To Grow Your Business</h2>
-                                <p>This should be used to tell a story about your product or service. How can you benefit them?</p>
+                                <p>
+                                    This should be used to tell a story about your product or
+                                    service. How can you benefit them?
+                                </p>
 
                                 <div className="row">
                                     <div className="col-lg-4 col-md-4">
@@ -39,7 +42,10 @@ class Features extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="lead-generation-features-image">
-                                <img src={require("../../images/man-and-women.png")} alt="Features" />
+                                <img
+                                    src={require('../../images/man-and-women.png')}
+                                    alt="Features"
+                                />
                             </div>
                         </div>
                     </div>

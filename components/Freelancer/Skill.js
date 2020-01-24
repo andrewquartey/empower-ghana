@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Progress } from 'react-sweet-progress';
-import "react-sweet-progress/lib/style.css";
+import 'react-sweet-progress/lib/style.css';
 
 class Skill extends Component {
     render() {
@@ -11,8 +11,14 @@ class Skill extends Component {
                         <div className="col-lg-6 col-md-12 p-0">
                             <div className="skill-content ptb-100">
                                 <div className="freelancer-section-title">
-                                    <h2>Some of My <span>Skills</span></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2>
+                                        Some of My <span>Skills</span>
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
                                 </div>
 
                                 <div className="skills">
@@ -22,12 +28,10 @@ class Skill extends Component {
                                         </div>
 
                                         <div className="skill-bar">
-                                            <Progress 
-                                                percent={98} 
-                                            />
+                                            <Progress percent={98} />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="skill-item">
                                         <div className="skill-header">
                                             <h3 className="skill-title">Marketing</h3>
@@ -36,12 +40,10 @@ class Skill extends Component {
                                         </div>
 
                                         <div className="skill-bar">
-                                            <Progress 
-                                                percent={92} 
-                                            />
+                                            <Progress percent={92} />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="skill-item">
                                         <div className="skill-header">
                                             <h3 className="skill-title">Design</h3>
@@ -50,9 +52,7 @@ class Skill extends Component {
                                         </div>
 
                                         <div className="skill-bar">
-                                            <Progress 
-                                                percent={60} 
-                                            />
+                                            <Progress percent={60} />
                                         </div>
                                     </div>
 
@@ -64,9 +64,7 @@ class Skill extends Component {
                                         </div>
 
                                         <div className="skill-bar">
-                                            <Progress 
-                                                percent={75} 
-                                            />
+                                            <Progress percent={75} />
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +73,7 @@ class Skill extends Component {
 
                         <div className="col-lg-6 col-md-12 p-0">
                             <div className="skill-image">
-                                <img src={require("../../images/skill-bg.jpg")} alt="skill-image" />
+                                <img src={require('../../images/skill-bg.jpg')} alt="skill-image" />
                             </div>
                         </div>
                     </div>

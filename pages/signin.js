@@ -12,20 +12,34 @@ class Signin extends Component {
                             <form>
                                 <div className="form-group">
                                     <label>Email</label>
-                                    <input type="email" className="form-control" placeholder="Email Address" />
+                                    <input
+                                        type="email"
+                                        className="form-control"
+                                        placeholder="Email Address"
+                                    />
                                 </div>
 
                                 <div className="form-group">
                                     <label>Password</label>
-                                    <input type="password" className="form-control" placeholder="Password" />
+                                    <input
+                                        type="password"
+                                        className="form-control"
+                                        placeholder="Password"
+                                    />
                                 </div>
 
-                                <button type="submit" className="btn btn-primary">Login</button>
+                                <button type="submit" className="btn btn-primary">
+                                    Login
+                                </button>
 
                                 <p>
-                                    <a href="signup.html" className="pull-left">Create a new account</a>
-                                    
-                                    <a href="#" className="pull-right">Forgot your password?</a>
+                                    <a href="signup.html" className="pull-left">
+                                        Create a new account
+                                    </a>
+
+                                    <a href="#" className="pull-right">
+                                        Forgot your password?
+                                    </a>
                                 </p>
                             </form>
                         </div>

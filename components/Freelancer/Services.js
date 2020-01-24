@@ -8,29 +8,25 @@ const options = {
     dots: true,
     autoplayHoverPause: true,
     autoplay: true,
-    navText: [
-        "<i class='fas fa-angle-left'></i>",
-        "<i class='fas fa-angle-right'></i>"
-    ],
+    navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
     responsive: {
         0: {
-            items:1,
+            items: 1
         },
         768: {
-            items:2,
+            items: 2
         },
         1200: {
-            items:3,
+            items: 3
         }
     }
-}
+};
 
 class Services extends Component {
+    state = { display: false };
 
-    state = { display:false};
-
-    componentDidMount(){ 
-        this.setState({ display: true }) 
+    componentDidMount() {
+        this.setState({ display: true });
     }
 
     render() {
@@ -38,50 +34,69 @@ class Services extends Component {
             <section className="services-area ptb-100 pt-0">
                 <div className="container">
                     <div className="row">
-                        {this.state.display ? <OwlCarousel 
-                            className="services-slides owl-carousel owl-theme"
-                            {...options}
-                        >
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services">
-                                    <i className="fas fa-laptop"></i>
-                                    <h3>Web Design</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        {this.state.display ? (
+                            <OwlCarousel
+                                className="services-slides owl-carousel owl-theme"
+                                {...options}
+                            >
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-services">
+                                        <i className="fas fa-laptop"></i>
+                                        <h3>Web Design</h3>
+                                        <p>
+                                            Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                            viverra maecenas accumsan lacus vel facilisis.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services">
-                                    <i className="fas fa-mobile-alt"></i>
-                                    <h3>Mobile Development</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-services">
+                                        <i className="fas fa-mobile-alt"></i>
+                                        <h3>Mobile Development</h3>
+                                        <p>
+                                            Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                            viverra maecenas accumsan lacus vel facilisis.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services">
-                                    <i className="fas fa-rocket"></i>
-                                    <h3>Branding Identity</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-services">
+                                        <i className="fas fa-rocket"></i>
+                                        <h3>Branding Identity</h3>
+                                        <p>
+                                            Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                            viverra maecenas accumsan lacus vel facilisis.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services">
-                                    <i className="fas fa-camera"></i>
-                                    <h3>Photography</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-services">
+                                        <i className="fas fa-camera"></i>
+                                        <h3>Photography</h3>
+                                        <p>
+                                            Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                            viverra maecenas accumsan lacus vel facilisis.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-services">
-                                    <i className="fab fa-sketch"></i>
-                                    <h3>Sketch</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-services">
+                                        <i className="fab fa-sketch"></i>
+                                        <h3>Sketch</h3>
+                                        <p>
+                                            Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                            viverra maecenas accumsan lacus vel facilisis.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </OwlCarousel> : ''}
+                            </OwlCarousel>
+                        ) : (
+                            ''
+                        )}
                     </div>
                 </div>
             </section>

@@ -1,5 +1,5 @@
 class Loader extends React.Component {
-    render(){
+    render() {
         return (
             <div className="preloader">
                 <div className="spinner">
@@ -10,5 +10,5 @@ class Loader extends React.Component {
         );
     }
 }
- 
+
 export default Loader;

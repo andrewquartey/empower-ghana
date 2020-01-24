@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
-import VisibilitySensor from "react-visibility-sensor";
+import VisibilitySensor from 'react-visibility-sensor';
 
 class Funfact extends Component {
-
     state = {
         didViewCountUp: false
     };
@@ -31,11 +30,7 @@ class Funfact extends Component {
                                     >
                                         <CountUp
                                             start={0}
-                                            end={
-                                                this.state.didViewCountUp
-                                                    ? 555
-                                                    : 0
-                                            }
+                                            end={this.state.didViewCountUp ? 555 : 0}
                                             duration={3}
                                         />
                                     </VisibilitySensor>
@@ -56,11 +51,7 @@ class Funfact extends Component {
                                     >
                                         <CountUp
                                             start={0}
-                                            end={
-                                                this.state.didViewCountUp
-                                                    ? 250048
-                                                    : 0
-                                            }
+                                            end={this.state.didViewCountUp ? 250048 : 0}
                                             duration={3}
                                         />
                                     </VisibilitySensor>
@@ -81,11 +72,7 @@ class Funfact extends Component {
                                     >
                                         <CountUp
                                             start={0}
-                                            end={
-                                                this.state.didViewCountUp
-                                                    ? 250
-                                                    : 0
-                                            }
+                                            end={this.state.didViewCountUp ? 250 : 0}
                                             duration={3}
                                         />
                                     </VisibilitySensor>
@@ -106,11 +93,7 @@ class Funfact extends Component {
                                     >
                                         <CountUp
                                             start={0}
-                                            end={
-                                                this.state.didViewCountUp
-                                                    ? 2045
-                                                    : 0
-                                            }
+                                            end={this.state.didViewCountUp ? 2045 : 0}
                                             duration={3}
                                         />
                                     </VisibilitySensor>

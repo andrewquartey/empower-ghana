@@ -48,29 +48,43 @@ class Footer extends Component {
                         </div>
 
                         <div className="col-lg-7 col-md-7">
-                            <p><i className="far fa-copyright"></i> 2019 <Link href="/"><a>Genial</a></Link>. All Rights Reserved</p>
+                            <p>
+                                <i className="far fa-copyright"></i> 2019{' '}
+                                <Link href="/">
+                                    <a>Genial</a>
+                                </Link>
+                                . All Rights Reserved
+                            </p>
                         </div>
 
                         <div className="col-lg-5 col-md-5">
                             <ul>
                                 <li>
                                     <Link href="#">
-                                        <a><i className="fab fa-facebook-f"></i></a>
+                                        <a>
+                                            <i className="fab fa-facebook-f"></i>
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="#">
-                                        <a><i className="fab fa-twitter"></i></a>
+                                        <a>
+                                            <i className="fab fa-twitter"></i>
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="#">
-                                        <a><i className="fab fa-instagram"></i></a>
+                                        <a>
+                                            <i className="fab fa-instagram"></i>
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="#">
-                                        <a><i className="fab fa-linkedin-in"></i></a>
+                                        <a>
+                                            <i className="fab fa-linkedin-in"></i>
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>

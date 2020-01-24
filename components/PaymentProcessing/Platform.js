@@ -13,7 +13,7 @@ class Platform extends Component {
                     <div className="row">
                         <div className="col-lg-3 col-md-3">
                             <a href="#" className="platform-box">
-                                <img src={require("../../images/mailchimp.png")} alt="mailchimp" />
+                                <img src={require('../../images/mailchimp.png')} alt="mailchimp" />
 
                                 <h3>Mail Chimp</h3>
                             </a>
@@ -21,7 +21,7 @@ class Platform extends Component {
 
                         <div className="col-lg-3 col-md-3">
                             <a href="#" className="platform-box">
-                                <img src={require("../../images/slack.png")} alt="slack" />
+                                <img src={require('../../images/slack.png')} alt="slack" />
 
                                 <h3>Slack</h3>
                             </a>
@@ -29,7 +29,7 @@ class Platform extends Component {
 
                         <div className="col-lg-3 col-md-3">
                             <a href="#" className="platform-box">
-                                <img src={require("../../images/twitter.png")} alt="twitter" />
+                                <img src={require('../../images/twitter.png')} alt="twitter" />
 
                                 <h3>Twitter</h3>
                             </a>
@@ -37,7 +37,7 @@ class Platform extends Component {
 
                         <div className="col-lg-3 col-md-3">
                             <a href="#" className="platform-box">
-                                <img src={require("../../images/instagram.png")} alt="instagram" />
+                                <img src={require('../../images/instagram.png')} alt="instagram" />
 
                                 <h3>Instagram</h3>
                             </a>

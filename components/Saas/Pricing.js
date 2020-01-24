@@ -9,7 +9,10 @@ class Pricing extends Component {
                     <div className="saas-section-title">
                         <h2>Our Pricing</h2>
                         <div className="bar"></div>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
                     </div>
 
                     <div className="row">
@@ -17,7 +20,7 @@ class Pricing extends Component {
                             <div className="pricing-table">
                                 <div className="pricing-header">
                                     <div className="icon">
-                                        <img src={require("../../images/icon1.png")} alt="icon" />
+                                        <img src={require('../../images/icon1.png')} alt="icon" />
                                     </div>
 
                                     <h3>Basic Plan</h3>
@@ -49,7 +52,7 @@ class Pricing extends Component {
                             <div className="pricing-table active">
                                 <div className="pricing-header">
                                     <div className="icon">
-                                        <img src={require("../../images/icon2.png")} alt="icon" />
+                                        <img src={require('../../images/icon2.png')} alt="icon" />
                                     </div>
 
                                     <h3>Advanced Plan</h3>
@@ -81,7 +84,7 @@ class Pricing extends Component {
                             <div className="pricing-table">
                                 <div className="pricing-header">
                                     <div className="icon">
-                                        <img src={require("../../images/icon3.png")} alt="icon" />
+                                        <img src={require('../../images/icon3.png')} alt="icon" />
                                     </div>
 
                                     <h3>Expert Plan</h3>

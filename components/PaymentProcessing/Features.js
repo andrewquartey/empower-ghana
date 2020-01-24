@@ -9,7 +9,10 @@ class Features extends Component {
                         <div className="payment-processing-section-title">
                             <span>Services</span>
                             <h2>Our Features</h2>
-                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>
+                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                                maecenas accumsan lacus vel facilisis.
+                            </p>
                         </div>
 
                         <div className="row">
@@ -63,12 +66,18 @@ class Features extends Component {
                         <div className="start-now-content">
                             <span>Sell Smarter</span>
                             <h2>Accept Payments Online. Get Paid Faster.</h2>
-                            <p>Keep track of all your payments using our beautifully designed payments dashboard. With all your payment information in one place, you'll be a more organized and efficient business owner.</p>
-                            <a href="#" className="btn btn-primary">Start Now!</a>
+                            <p>
+                                Keep track of all your payments using our beautifully designed
+                                payments dashboard. With all your payment information in one place,
+                                you'll be a more organized and efficient business owner.
+                            </p>
+                            <a href="#" className="btn btn-primary">
+                                Start Now!
+                            </a>
                         </div>
 
                         <div className="dashboard-image">
-                            <img src={require("../../images/banner-chart-home.jpg")} alt="image" />
+                            <img src={require('../../images/banner-chart-home.jpg')} alt="image" />
                         </div>
                     </div>
                 </section>

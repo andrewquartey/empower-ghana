@@ -8,28 +8,25 @@ const options = {
     dots: false,
     autoplayHoverPause: true,
     autoplay: true,
-    navText: [
-        "<i class='fas fa-chevron-left'></i>",
-        "<i class='fas fa-chevron-right'></i>"
-    ],
+    navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
     responsive: {
         0: {
-            items:1,
+            items: 1
         },
         768: {
-            items:2,
+            items: 2
         },
         1200: {
-            items:3,
+            items: 3
         }
     }
-}
+};
 
 class FeaturedCars extends Component {
-    state = { display:false};
+    state = { display: false };
 
-    componentDidMount(){ 
-        this.setState({ display: true }) 
+    componentDidMount() {
+        this.setState({ display: true });
     }
     render() {
         return (
@@ -41,54 +38,78 @@ class FeaturedCars extends Component {
                     </div>
 
                     <div className="row">
-                        {this.state.display ? <OwlCarousel 
-                            className="featured-cars-slides owl-carousel owl-theme"
-                            {...options}
-                        >
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-featured-cars">
-                                    <img src={require("../../images/featured-cars1.jpg")} alt="cars" />
+                        {this.state.display ? (
+                            <OwlCarousel
+                                className="featured-cars-slides owl-carousel owl-theme"
+                                {...options}
+                            >
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-featured-cars">
+                                        <img
+                                            src={require('../../images/featured-cars1.jpg')}
+                                            alt="cars"
+                                        />
 
-                                    <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <div className="featured-cars-content">
+                                            <h3>
+                                                <a href="#">2015 Toyota Corolla</a>
+                                            </h3>
+                                            <span>from $450/mo</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-featured-cars">
-                                    <img src={require("../../images/featured-cars2.jpg")} alt="cars" />
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-featured-cars">
+                                        <img
+                                            src={require('../../images/featured-cars2.jpg')}
+                                            alt="cars"
+                                        />
 
-                                    <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <div className="featured-cars-content">
+                                            <h3>
+                                                <a href="#">2015 Toyota Corolla</a>
+                                            </h3>
+                                            <span>from $450/mo</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-featured-cars">
-                                    <img src={require("../../images/featured-cars3.jpg")} alt="cars" />
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-featured-cars">
+                                        <img
+                                            src={require('../../images/featured-cars3.jpg')}
+                                            alt="cars"
+                                        />
 
-                                    <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <div className="featured-cars-content">
+                                            <h3>
+                                                <a href="#">2015 Toyota Corolla</a>
+                                            </h3>
+                                            <span>from $450/mo</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-featured-cars">
-                                    <img src={require("../../images/featured-cars2.jpg")} alt="cars" />
+                                <div className="col-lg-12 col-md-12">
+                                    <div className="single-featured-cars">
+                                        <img
+                                            src={require('../../images/featured-cars2.jpg')}
+                                            alt="cars"
+                                        />
 
-                                    <div className="featured-cars-content">
-                                        <h3><a href="#">2015 Toyota Corolla</a></h3>
-                                        <span>from $450/mo</span>
+                                        <div className="featured-cars-content">
+                                            <h3>
+                                                <a href="#">2015 Toyota Corolla</a>
+                                            </h3>
+                                            <span>from $450/mo</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </OwlCarousel> : ''}
+                            </OwlCarousel>
+                        ) : (
+                            ''
+                        )}
                     </div>
                 </div>
             </section>

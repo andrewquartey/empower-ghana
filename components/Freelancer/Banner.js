@@ -9,7 +9,7 @@ class Banner extends Component {
     };
 
     openModal = () => {
-        this.setState({isOpen: true})
+        this.setState({ isOpen: true });
     };
     render() {
         return (
@@ -21,31 +21,43 @@ class Banner extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 col-md-8">
                                         <div className="freelancer-banner-content">
-                                            <h1>I'm A Full Stack Web <span>Developer</span></h1>
+                                            <h1>
+                                                I'm A Full Stack Web <span>Developer</span>
+                                            </h1>
                                             <ul>
                                                 <li>
                                                     <Link href="#">
-                                                        <a><i className="fab fa-github"></i></a>
+                                                        <a>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="#">
-                                                        <a><i className="fab fa-codepen"></i></a>
+                                                        <a>
+                                                            <i className="fab fa-codepen"></i>
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="#">
-                                                        <a><i className="fab fa-linkedin-in"></i></a>
+                                                        <a>
+                                                            <i className="fab fa-linkedin-in"></i>
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="#">
-                                                        <a><i className="fab fa-stack-overflow"></i></a>
+                                                        <a>
+                                                            <i className="fab fa-stack-overflow"></i>
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="#">
-                                                        <a><i className="fab fa-gitlab"></i></a>
+                                                        <a>
+                                                            <i className="fab fa-gitlab"></i>
+                                                        </a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -55,9 +67,12 @@ class Banner extends Component {
                                                 </Link>
                                                 <Link href="#">
                                                     <a
-                                                        onClick={e => {e.preventDefault(); this.openModal()}}
+                                                        onClick={e => {
+                                                            e.preventDefault();
+                                                            this.openModal();
+                                                        }}
                                                         className="video-btn popup-youtube"
-                                                    > 
+                                                    >
                                                         <i className="fas fa-play"></i>
                                                     </a>
                                                 </Link>
@@ -67,7 +82,10 @@ class Banner extends Component {
 
                                     <div className="col-lg-6 col-md-4">
                                         <div className="freelancer-banner-image">
-                                            <img src={require("../../images/developer.png")} alt="image" />
+                                            <img
+                                                src={require('../../images/developer.png')}
+                                                alt="image"
+                                            />
                                         </div>
                                     </div>
                                 </div>
@@ -75,13 +93,15 @@ class Banner extends Component {
                         </div>
                     </div>
 
-                    <div className="back-text"><h1>Developer</h1></div>
+                    <div className="back-text">
+                        <h1>Developer</h1>
+                    </div>
                 </div>
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
+                <ModalVideo
+                    channel="youtube"
+                    isOpen={this.state.isOpen}
+                    videoId="szuchBiLrEM"
+                    onClose={() => this.setState({ isOpen: false })}
                 />
             </React.Fragment>
         );

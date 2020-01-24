@@ -12,22 +12,38 @@ class Signup extends Component {
                             <form>
                                 <div className="form-group">
                                     <label>Username</label>
-                                    <input type="text" className="form-control" placeholder="Username" />
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        placeholder="Username"
+                                    />
                                 </div>
 
                                 <div className="form-group">
                                     <label>Email</label>
-                                    <input type="email" className="form-control" placeholder="Email Address" />
+                                    <input
+                                        type="email"
+                                        className="form-control"
+                                        placeholder="Email Address"
+                                    />
                                 </div>
 
                                 <div className="form-group">
                                     <label>Password</label>
-                                    <input type="password" className="form-control" placeholder="Password" />
+                                    <input
+                                        type="password"
+                                        className="form-control"
+                                        placeholder="Password"
+                                    />
                                 </div>
 
-                                <button type="submit" className="btn btn-primary">Signup</button>
+                                <button type="submit" className="btn btn-primary">
+                                    Signup
+                                </button>
 
-                                <p>Already a registered user? <a href="login.html">Login!</a></p>
+                                <p>
+                                    Already a registered user? <a href="login.html">Login!</a>
+                                </p>
                             </form>
                         </div>
                     </div>

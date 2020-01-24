@@ -7,7 +7,10 @@ class Features extends Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>Whats different from other's</h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
                     </div>
 
                     <div className="row">
@@ -17,7 +20,11 @@ class Features extends Component {
                                     <i className="fas fa-code"></i>
                                 </div>
                                 <h3>App Development</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -27,7 +34,11 @@ class Features extends Component {
                                     <i className="fas fa-cubes"></i>
                                 </div>
                                 <h3>Digital Branding</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -37,7 +48,11 @@ class Features extends Component {
                                     <i className="fas fa-cloud"></i>
                                 </div>
                                 <h3>Cloud Storage</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -47,7 +62,11 @@ class Features extends Component {
                                     <i className="fas fa-cogs"></i>
                                 </div>
                                 <h3>Customization</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -57,7 +76,11 @@ class Features extends Component {
                                     <i className="fas fa-pencil-ruler"></i>
                                 </div>
                                 <h3>UX Planning</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
 
@@ -67,7 +90,11 @@ class Features extends Component {
                                     <i className="fas fa-headset"></i>
                                 </div>
                                 <h3>Customer Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </p>
                             </div>
                         </div>
                     </div>

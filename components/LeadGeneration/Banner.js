@@ -9,12 +9,16 @@ class Banner extends Component {
     };
 
     openModal = () => {
-        this.setState({isOpen: true})
+        this.setState({ isOpen: true });
     };
     render() {
         return (
             <React.Fragment>
-                <div id="home" className="lead-generation-banner jarallax" data-jarallax='{"speed": 0.2}'>
+                <div
+                    id="home"
+                    className="lead-generation-banner jarallax"
+                    data-jarallax='{"speed": 0.2}'
+                >
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">
@@ -22,17 +26,25 @@ class Banner extends Component {
                                     <div className="col-lg-7 col-md-12">
                                         <div className="lead-generation-banner-content">
                                             <h1>Great Way To show Your Services</h1>
-                                            <p>It should be noted that although application software is thought of as a program, it can be anything that runs on a computer.</p>
+                                            <p>
+                                                It should be noted that although application
+                                                software is thought of as a program, it can be
+                                                anything that runs on a computer.
+                                            </p>
                                             <div className="btn-box">
                                                 <Link href="#">
                                                     <a className="btn btn-primary">Get Started</a>
                                                 </Link>
                                                 <Link href="#">
                                                     <a
-                                                        onClick={e => {e.preventDefault(); this.openModal()}}
+                                                        onClick={e => {
+                                                            e.preventDefault();
+                                                            this.openModal();
+                                                        }}
                                                         className="video-btn popup-youtube"
-                                                    > 
-                                                        <i className="fab fa-google-play"></i> Watch our video
+                                                    >
+                                                        <i className="fab fa-google-play"></i> Watch
+                                                        our video
                                                     </a>
                                                 </Link>
                                             </div>
@@ -48,20 +60,37 @@ class Banner extends Component {
 
                                             <form>
                                                 <div className="form-group">
-                                                    <input type="text" placeholder="Your name" className="form-control" />
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Your name"
+                                                        className="form-control"
+                                                    />
                                                 </div>
 
                                                 <div className="form-group">
-                                                    <input type="email" placeholder="Your email" className="form-control" />
+                                                    <input
+                                                        type="email"
+                                                        placeholder="Your email"
+                                                        className="form-control"
+                                                    />
                                                 </div>
 
                                                 <div className="form-group">
-                                                    <input type="text" placeholder="Phone number" className="form-control" />
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Phone number"
+                                                        className="form-control"
+                                                    />
                                                 </div>
 
-                                                <button type="submit" className="btn btn-primary">Call to Action</button>
+                                                <button type="submit" className="btn btn-primary">
+                                                    Call to Action
+                                                </button>
                                             </form>
-                                            <p><i className="fas fa-info-circle"></i> We will never share your personal info</p>
+                                            <p>
+                                                <i className="fas fa-info-circle"></i> We will never
+                                                share your personal info
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -69,11 +98,11 @@ class Banner extends Component {
                         </div>
                     </div>
                 </div>
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
+                <ModalVideo
+                    channel="youtube"
+                    isOpen={this.state.isOpen}
+                    videoId="szuchBiLrEM"
+                    onClose={() => this.setState({ isOpen: false })}
                 />
             </React.Fragment>
         );

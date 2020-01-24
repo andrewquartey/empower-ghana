@@ -5,15 +5,22 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <link rel="icon" type="image/png" href={require("../images/favicon.ico")}></link>
+                    <meta
+                        name="viewport"
+                        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+                    />
+                    <link
+                        rel="icon"
+                        type="image/png"
+                        href={require('../images/favicon.ico')}
+                    ></link>
                 </Head>
                 <body>
                     <Main />
                     <NextScript />
                 </body>
             </Html>
-        )
+        );
     }
 }
 

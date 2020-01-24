@@ -9,7 +9,7 @@ class Cta extends Component {
     };
 
     openModal = () => {
-        this.setState({isOpen: true})
+        this.setState({ isOpen: true });
     };
     render() {
         return (
@@ -17,13 +17,21 @@ class Cta extends Component {
                 <section className="cta-area ptb-100 jarallax pb-0" data-jarallax='{"speed": 0.2}'>
                     <div className="container">
                         <div className="cta-content">
-                            <h2>How App <span>Works</span></h2>
-                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <h2>
+                                How App <span>Works</span>
+                            </h2>
+                            <p>
+                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                                maecenas accumsan lacus vel facilisis.
+                            </p>
                             <Link href="#">
                                 <a
-                                    onClick={e => {e.preventDefault(); this.openModal()}}
+                                    onClick={e => {
+                                        e.preventDefault();
+                                        this.openModal();
+                                    }}
                                     className="video-btn popup-youtube"
-                                > 
+                                >
                                     <i className="fas fa-play"></i>
                                 </a>
                             </Link>
@@ -35,7 +43,10 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                         <i className="fas fa-download"></i>
                                         <h3>Download</h3>
-                                        <p>Duis cursus dictum enim dictum venenatis. Orci varius natoque penatibus et magnis dis.</p>
+                                        <p>
+                                            Duis cursus dictum enim dictum venenatis. Orci varius
+                                            natoque penatibus et magnis dis.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -43,7 +54,10 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                         <i className="fas fa-bars"></i>
                                         <h3>Setup It</h3>
-                                        <p>Duis cursus dictum enim dictum venenatis. Orci varius natoque penatibus et magnis dis.</p>
+                                        <p>
+                                            Duis cursus dictum enim dictum venenatis. Orci varius
+                                            natoque penatibus et magnis dis.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -51,18 +65,21 @@ class Cta extends Component {
                                     <div className="single-cta-box">
                                         <i className="far fa-thumbs-up"></i>
                                         <h3>Enjoy It</h3>
-                                        <p>Duis cursus dictum enim dictum venenatis. Orci varius natoque penatibus et magnis dis.</p>
+                                        <p>
+                                            Duis cursus dictum enim dictum venenatis. Orci varius
+                                            natoque penatibus et magnis dis.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
+                <ModalVideo
+                    channel="youtube"
+                    isOpen={this.state.isOpen}
+                    videoId="szuchBiLrEM"
+                    onClose={() => this.setState({ isOpen: false })}
                 />
             </React.Fragment>
         );

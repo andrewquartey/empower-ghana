@@ -1,7 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-export default ({title, desc, url}) => (
-
+export default ({ title, desc, url }) => (
     <NextSeo
         title={title}
         description={desc}
@@ -12,5 +11,4 @@ export default ({title, desc, url}) => (
             description: desc
         }}
     />
-
 );

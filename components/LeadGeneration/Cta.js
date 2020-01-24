@@ -7,8 +7,13 @@ class Cta extends Component {
                 <div className="container">
                     <div className="cta-content-four">
                         <h2>Interested In Working With Us Let's Talk Now</h2>
-                        <p>Whatever the level of support you require, we are sure that we will have a package that meets your needs.</p>
-                        <a href="#" className="btn btn-primary">Call To Action</a>
+                        <p>
+                            Whatever the level of support you require, we are sure that we will have
+                            a package that meets your needs.
+                        </p>
+                        <a href="#" className="btn btn-primary">
+                            Call To Action
+                        </a>
                     </div>
                 </div>
             </section>

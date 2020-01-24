@@ -12,11 +12,14 @@ class Footer extends Component {
                                 <div className="logo">
                                     <Link href="/agency">
                                         <a>
-                                            <img src={require('../../images/black-logo.png')} alt="logo" />
+                                            <img
+                                                src={require('../../images/black-logo.png')}
+                                                alt="logo"
+                                            />
                                         </a>
                                     </Link>
                                 </div>
-        
+
                                 <ul className="contact-info">
                                     <li>1828 Johns Drive Glenview, IL 60025</li>
                                     <li>
@@ -41,7 +44,7 @@ class Footer extends Component {
                         <div className="col-lg-2 col-md-6">
                             <div className="single-footer-widget pl-3">
                                 <h3>Quick Links</h3>
-        
+
                                 <ul className="list">
                                     <li>
                                         <Link href="#">
@@ -75,7 +78,7 @@ class Footer extends Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget pl-5">
                                 <h3>Support</h3>
-        
+
                                 <ul className="list">
                                     <li>
                                         <Link href="#">
@@ -146,29 +149,40 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-7">
-                                <p><i className="far fa-copyright"></i> 2019 <a href="/">Genial</a>. All Rights Reserved</p>
+                                <p>
+                                    <i className="far fa-copyright"></i> 2019 <a href="/">Genial</a>
+                                    . All Rights Reserved
+                                </p>
                             </div>
 
                             <div className="col-lg-5 col-md-5">
                                 <ul>
                                     <li>
                                         <Link href="#">
-                                            <a><i className="fab fa-facebook-f"></i></a>
+                                            <a>
+                                                <i className="fab fa-facebook-f"></i>
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a><i className="fab fa-twitter"></i></a>
+                                            <a>
+                                                <i className="fab fa-twitter"></i>
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a><i className="fab fa-instagram"></i></a>
+                                            <a>
+                                                <i className="fab fa-instagram"></i>
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a><i className="fab fa-linkedin-in"></i></a>
+                                            <a>
+                                                <i className="fab fa-linkedin-in"></i>
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>

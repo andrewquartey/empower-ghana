@@ -7,12 +7,22 @@ class Subscribe extends Component {
                 <div className="container">
                     <div className="subscribe-content">
                         <h2>Subscribe our Newsletter</h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <p>
+                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis.
+                        </p>
 
                         <form className="newsletter-form" data-toggle="validator">
                             <div className="row align-items-center">
                                 <div className="col-lg-8 col-md-8">
-                                    <input type="email" className="form-control" placeholder="Email address" name="EMAIL" required={true} autoComplete="off" />
+                                    <input
+                                        type="email"
+                                        className="form-control"
+                                        placeholder="Email address"
+                                        name="EMAIL"
+                                        required={true}
+                                        autoComplete="off"
+                                    />
                                 </div>
 
                                 <div className="col-lg-4 col-md-4">
@@ -24,8 +34,12 @@ class Subscribe extends Component {
                     </div>
                 </div>
 
-                <div className="rocket"><img src={require("../../images/rocket.png")} alt="rocket" /></div>
-                <div className="map"><img src={require("../../images/map.png")} alt="map" /></div>
+                <div className="rocket">
+                    <img src={require('../../images/rocket.png')} alt="rocket" />
+                </div>
+                <div className="map">
+                    <img src={require('../../images/map.png')} alt="map" />
+                </div>
             </section>
         );
     }
