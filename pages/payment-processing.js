@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavbarEight from '../components/Layouts/NavbarEight';
 import Footer from '../components/PaymentProcessing/Footer';
 import Banner from '../components/PaymentProcessing/Banner';
-import Partner from '../components/PaymentProcessing/Partner';
 import Features from '../components/PaymentProcessing/Features';
 import Cta from '../components/PaymentProcessing/Cta';
 import HowWorks from '../components/PaymentProcessing/HowWorks';
@@ -11,6 +10,8 @@ import Platform from '../components/PaymentProcessing/Platform';
 import Funfact from '../components/PaymentProcessing/Funfact';
 import ShopOnline from '../components/PaymentProcessing/ShopOnline';
 import Contact from '../components/Agency/Contact';
+import Gandhi from '../components/PaymentProcessing/Gandhi';
+import Mahama from '../components/PaymentProcessing/Mahama';
 
 class Index extends Component {
     render() {
@@ -18,8 +19,9 @@ class Index extends Component {
             <React.Fragment>
                 <NavbarEight />
                 <Banner />
-                <Partner />
+                <Gandhi />
                 <Features />
+                <Mahama />
                 <Cta />
                 <HowWorks />
                 <NewFeatures />
