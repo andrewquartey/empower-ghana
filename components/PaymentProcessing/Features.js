@@ -6,16 +6,16 @@ class Features extends Component {
             <React.Fragment>
                 <section id="features" className="payment-processing-features ptb-100 bg-f5fbff">
                     <div className="container">
-                        <div className="payment-processing-section-title">
-                            <span>Services</span>
-                            <h2>Our Features</h2>
-                            <p>
-                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                                maecenas accumsan lacus vel facilisis.
-                            </p>
-                        </div>
+                        <p style={{ fontSize: '1.5em' }}>
+                            SDGs is the change we have to create now. United we stand to work
+                            diligently to the fulfil lment of the SDGs for sustainable development.
+                            The change we choose to create (whether positive or negative) determines
+                            our future a nd the fut ure of the nation. Let us choose to journey on
+                            the path of positive, effective change today , so our tomorrow may be
+                            secure d and guaranteed
+                        </p>
 
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-features-box">
                                     <i className="fas fa-search-dollar"></i>
@@ -58,10 +58,11 @@ class Features extends Component {
                                 </div>
                             </div>
                         </div>
+                    */}
                     </div>
                 </section>
 
-                <section className="start-now-area ptb-100 pb-0">
+                {/* <section className="start-now-area ptb-100 pb-0">
                     <div className="container">
                         <div className="start-now-content">
                             <span>Sell Smarter</span>
@@ -80,7 +81,7 @@ class Features extends Component {
                             <img src={require('../../images/banner-chart-home.jpg')} alt="image" />
                         </div>
                     </div>
-                </section>
+                </section> */}
             </React.Fragment>
         );
     }
