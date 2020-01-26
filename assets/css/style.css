@@ -3900,6 +3900,19 @@ p:last-child {
   background: #f36;
   border-color: #f36;
 }
+
+.sdg-pad {
+  padding: 0 200px;
+}
+
+.spacer {
+  margin-top: 30px;
+}
+
+.white {
+  color: white !important;
+}
+
 .download-content h3 {
   margin-bottom: 20px;
   font-size: 30px;

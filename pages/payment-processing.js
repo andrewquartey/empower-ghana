@@ -12,6 +12,7 @@ import ShopOnline from '../components/PaymentProcessing/ShopOnline';
 import Contact from '../components/Agency/Contact';
 import Gandhi from '../components/PaymentProcessing/Gandhi';
 import Mahama from '../components/PaymentProcessing/Mahama';
+import SDG1 from '../components/PaymentProcessing/SDG1';
 
 class Index extends Component {
     render() {
@@ -22,6 +23,7 @@ class Index extends Component {
                 <Gandhi />
                 <Features />
                 <Mahama />
+                <SDG1 />
                 <Cta />
                 <HowWorks />
                 <NewFeatures />
