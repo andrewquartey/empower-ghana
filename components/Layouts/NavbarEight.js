@@ -59,7 +59,7 @@ class NavbarEight extends Component {
         return (
             <React.Fragment>
                 <SeoSection
-                    title="Genial - Payment Processing Landing Page"
+                    title="Empower Ghana"
                     desc="Genial is a React Next Landing Templates. This has been built with React, Next.js, Express.js, and ES6+."
                     url="https://genial-react.envytheme.com/payment-processing"
                 />
@@ -70,7 +70,10 @@ class NavbarEight extends Component {
                     <div className="container">
                         <Link href="/payment-processing">
                             <a className="navbar-brand">
-                                <img src={require('../../images/black-logo.png')} alt="logo" />
+                                <img
+                                    src={require('../../images/empowerghana-logo.jpg')}
+                                    alt="logo"
+                                />
                             </a>
                         </Link>
 
