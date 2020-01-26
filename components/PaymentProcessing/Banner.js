@@ -6,25 +6,7 @@ class Banner extends Component {
             <div id="home" className="payment-processing-banner">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-6 col-md-12 p-0">
-                            {/* <div className="payment-processing-banner-content">
-                                <h1>The new standard in online payments</h1>
-                                <p>
-                                    It should be noted that although application software is thought
-                                    of as a program, it can be anything that runs on a computer.
-                                </p>
-
-                                <ul>
-                                    <li>All popular payment methods</li>
-                                    <li>Payments around the world</li>
-                                    <li>In-depth data insights</li>
-                                </ul>
-
-                                <a href="#" className="btn btn-primary">
-                                    Get Started!
-                                </a>
-                            </div> */}
-                        </div>
+                        <div className="col-lg-6 col-md-12 p-0"></div>
 
                         <div className="col-12 p-0">
                             <div
@@ -38,19 +20,21 @@ class Banner extends Component {
                                 <img src={require('../../images/banner.jpg')} alt="image" />
                             </div> */}
                                 <div className="banner-text">
-                                    <h1 style={{ color: 'white' }}>
+                                    <h1 style={{ color: 'white', marginBottom: '10px' }}>
                                         Empowering Ghana Through the SDGs
                                     </h1>
                                     <p
                                         style={{
-                                            color: '#fef',
+                                            // marginTop: '10px',
+                                            color: '#d3d3d3',
                                             position: 'absolute',
-                                            left: '50%',
-                                            transform: `translate(-50%, -50%)`
+                                            left: '10%'
+                                            // transform: `translate(-50%, -50%)`
                                         }}
                                     >
                                         {' '}
-                                        The new standard in online payments
+                                        Join uswork diligently to the fulfil lment of the SDGs for
+                                        sustainable development.
                                     </p>
                                 </div>
                             </div>
