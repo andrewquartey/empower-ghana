@@ -6,8 +6,8 @@ class Footer extends Component {
         return (
             <footer className="footer-area-four">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-3">
+                    <div className="row foot-align">
+                        <div className="col-lg-3 col-sm-6 col-xm-12">
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <a href="#">
@@ -33,7 +33,7 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-lg-3 col-sm-6 col-xm-12">
                             <div className="single-footer-widget pl-3">
                                 <h3>Quick Links</h3>
 
@@ -57,7 +57,7 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-lg-3 col-sm-6 col-xm-12">
                             <div className="single-footer-widget">
                                 <h3>Affliations</h3>
 
@@ -84,7 +84,7 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-3 col-sm-6 col-xm-12">
                             <div className="single-footer-widget pl-5">
                                 <h3>Legal</h3>
 
