@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class SDG1 extends Component {
+class SDGs extends Component {
     render() {
         return (
             <section
@@ -60,7 +60,7 @@ class SDG1 extends Component {
 
                         <div className="col-3">
                             <div className="about-content">
-                                <h2 className="white">Goal 1: Good Health & Wellbeing</h2>
+                                <h2 className="white">Goal 3: Good Health & Wellbeing</h2>
                                 <p style={{ color: '#e3e3e3' }}>
                                     Our health and well-being should always be a major priority
                                     because the truth is that we need strength to be able to achieve
@@ -78,7 +78,7 @@ class SDG1 extends Component {
 
                         <div className="col-3">
                             <div className="about-content">
-                                <h2 className="white">Goal 2: Quality Education</h2>
+                                <h2 className="white">Goal 4: Quality Education</h2>
                                 <p style={{ color: '#e3e3e3' }}>
                                     Unlimited access to quality education and learning diminishes
                                     all types of inequalities including gender equality,
@@ -99,4 +99,4 @@ class SDG1 extends Component {
     }
 }
 
-export default SDG1;
+export default SDGs;

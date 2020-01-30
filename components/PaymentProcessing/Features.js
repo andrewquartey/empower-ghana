@@ -4,15 +4,19 @@ class Features extends Component {
     render() {
         return (
             <React.Fragment>
-                <section id="features" className="payment-processing-features ptb-100 bg-f5fbff">
-                    <div className="container">
-                        <p style={{ fontSize: '1.5em' }}>
+                <section
+                    id="features"
+                    className="payment-processing-features ptb-100"
+                    style={{ backgroundColor: '#2f9b48' }}
+                >
+                    <div className="container" style={{ textAlign: 'center' }}>
+                        <p style={{ fontSize: '1.5em', color: 'white' }}>
                             SDGs is the change we have to create now. United we stand to work
                             diligently to the fulfil lment of the SDGs for sustainable development.
                             The change we choose to create (whether positive or negative) determines
                             our future a nd the fut ure of the nation. Let us choose to journey on
                             the path of positive, effective change today , so our tomorrow may be
-                            secure d and guaranteed
+                            secured and guaranteed
                         </p>
 
                         {/* <div className="row">

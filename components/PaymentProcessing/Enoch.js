@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Mahama extends Component {
+class Enoch extends Component {
     render() {
         return (
             <section className="partner-area-four">
@@ -18,17 +18,20 @@ class Mahama extends Component {
                                 <div>
                                     <blockquote>
                                         <p>
-                                            Our struggle to overcome poverty, disease and illiteracy
-                                            is a common one whose success is dependent on the
-                                            solidarity that exists between us.”
+                                            In a society where strong leadership and good governance
+                                            exist, problems grow smaller, human lives improve
+                                            significantly and communities become better. These are
+                                            true because strong leadership and good governance aim
+                                            at solving real life’s problems – in communities and
+                                            world around – with passion and unmatched integrity.
                                         </p>
                                     </blockquote>
                                     <cite>
-                                        <span>His Excellency John Dramani Mahama</span>
+                                        <span>Enoch Acheampong</span>
                                         <br />
-                                        Social Media Specialist
+                                        Co-founder, iLEAD International
                                         <br />
-                                        American College of Chest Physicians
+                                        Ghana
                                     </cite>
                                 </div>
                             </div>
@@ -42,4 +45,4 @@ class Mahama extends Component {
     }
 }
 
-export default Mahama;
+export default Enoch;

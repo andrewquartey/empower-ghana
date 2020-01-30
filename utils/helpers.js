@@ -1,1 +1,1 @@
-exports.getCurrentYear = () => {};
+exports.getCurrentYear = () => new Date().getFullYear();

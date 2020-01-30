@@ -8,8 +8,8 @@ class Contact extends Component {
                     <div className="section-title">
                         <h2>Contact Us</h2>
                         <p>
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                            accumsan lacus vel facilisis.
+                            Please fill the the form below if you have any enquiries. Also you may
+                            call us or pass by our office.
                         </p>
                     </div>
 

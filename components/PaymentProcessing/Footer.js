@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { getCurrentYear } from '../../utils/helpers';
 
 class Footer extends Component {
     render() {
@@ -6,33 +7,33 @@ class Footer extends Component {
             <footer className="footer-area-four">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-3">
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <a href="#">
                                         <img
-                                            src={require('../../images/white-logo.png')}
+                                            src={require('../../images/empowerghana-logo.jpg')}
                                             alt="logo"
                                         />
                                     </a>
                                 </div>
 
                                 <ul className="contact-info">
-                                    <li>1828 Johns Drive Glenview, IL 60025</li>
+                                    <li>C6 North Ofankor Hills Estates, Pokuase, Ghana.</li>
                                     <li>
                                         <a href="#">(224) 228-8475</a>
                                     </li>
                                     <li>
-                                        <a href="#">support@pluck.com</a>
+                                        <a href="#">info@empowerghana.org</a>
                                     </li>
                                     <li>
-                                        <a href="#">www.pluck.com</a>
+                                        <a href="#">www.empowerghana.org</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-6">
+                        <div className="col-3">
                             <div className="single-footer-widget pl-3">
                                 <h3>Quick Links</h3>
 
@@ -41,28 +42,58 @@ class Footer extends Component {
                                         <a href="#">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Features</a>
+                                        <a href="#">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Screenshots</a>
+                                        <a href="#">Gallery</a>
                                     </li>
                                     <li>
-                                        <a href="#">Pricing</a>
+                                        <a href="#">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="#">News</a>
+                                        <a href="#">Events</a>
                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="col-3">
+                            <div className="single-footer-widget">
+                                <h3>Affliations</h3>
+
+                                <ul className="list">
+                                    <li>
+                                        <a href="#">iLEAD International</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Volunteers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Join Us</a>
+                                    </li>
+                                    {/* <li>
+                                        <a href="#">Support Center</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Account Security</a>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Support</h3>
+                                <h3>Legal</h3>
 
                                 <ul className="list">
-                                    <li>
+                                    {/* <li>
                                         <a href="#">Quick Support</a>
+                                    </li> */}
+                                    <li>
+                                        <a href="#">Terms & Conditions</a>
                                     </li>
                                     <li>
                                         <a href="#">Privacy Policy</a>
@@ -71,34 +102,7 @@ class Footer extends Component {
                                         <a href="#">Copyright</a>
                                     </li>
                                     <li>
-                                        <a href="#">Terms & Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Testimonials</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget">
-                                <h3>My Account</h3>
-
-                                <ul className="list">
-                                    <li>
-                                        <a href="#">Managed Account</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Create Account</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Download Software</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Support Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Account Security</a>
+                                        <a href="#">GDPR</a>
                                     </li>
                                 </ul>
                             </div>
@@ -111,8 +115,8 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-7">
                                 <p>
-                                    <i className="far fa-copyright"></i> 2019 <a href="/">Genial</a>
-                                    . All Rights Reserved
+                                    <i className="far fa-copyright"></i> {getCurrentYear()}{' '}
+                                    <a href="/">Genial</a>. All Rights Reserved
                                 </p>
                             </div>
 

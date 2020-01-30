@@ -36,7 +36,7 @@ class Gandhi extends Component {
                                 </cite>
                             </div>
                         </div>
-                        <hr style={{ margin: '60px auto', opacity: '.5' }} />
+                        <hr style={{ margin: '60px auto', opacity: '.0' }} />
                     </div>
                 </div>
             </section>
