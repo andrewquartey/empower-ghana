@@ -1,36 +1,44 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
-import Footer from '../components/Layouts/Footer';
-import Banner from '../components/Agency/Banner';
-import Partner from '../components/Agency/Partner';
-import About from '../components/Agency/About';
-import Features from '../components/Agency/Features';
-import Research from '../components/Agency/Research';
-import Cta from '../components/Agency/Cta';
-import Funfact from '../components/Agency/Funfact';
-import Testimonials from '../components/Agency/Testimonials';
-import Pricing from '../components/Agency/Pricing';
-import Blog from '../components/Agency/Blog';
+import NavbarEight from '../components/Layouts/NavbarEight';
+import Footer from '../components/PaymentProcessing/Footer';
+import Banner from '../components/PaymentProcessing/Banner';
+import Features from '../components/PaymentProcessing/Features';
+import Message from '../components/PaymentProcessing/Message';
 import Contact from '../components/Agency/Contact';
-import Subscribe from '../components/Agency/Subscribe';
+import Gandhi from '../components/PaymentProcessing/Gandhi';
+import Mahama from '../components/PaymentProcessing/Mahama';
+import SDGs from '../components/PaymentProcessing/SDGs';
+import Magret from '../components/PaymentProcessing/Magret';
+import MagretMessage from '../components/PaymentProcessing/MagretMessage';
+import Enoch from '../components/PaymentProcessing/Enoch';
+import EnochMessage from '../components/PaymentProcessing/EnochMessage';
+import Enoch2 from '../components/PaymentProcessing/Enoch2';
+import EnochMessage2 from '../components/PaymentProcessing/EnochMessage2';
 
 class Index extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar />
+                <NavbarEight />
                 <Banner />
-                <Partner />
-                <About />
+                <Gandhi />
                 <Features />
-                <Research />
-                <Cta />
+                <Mahama />
+                <SDGs />
+                <Message />
+                <Magret />
+                <MagretMessage />
+                <Enoch />
+                <EnochMessage />
+                <Enoch2 />
+                <EnochMessage2 />
+                {/* <HowWorks />
+                <NewFeatures />
+                <Platform />
                 <Funfact />
-                <Testimonials />
-                <Pricing />
-                <Blog />
+                <ShopOnline /> */}
                 <Contact />
-                <Subscribe />
+
                 <Footer />
             </React.Fragment>
         );
