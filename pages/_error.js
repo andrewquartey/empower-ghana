@@ -1,6 +1,6 @@
 import React from 'react';
-import NavbarSix from '../components/Layouts/NavbarSix';
-import Footer from '../components/Layouts/Footer';
+import NavbarEight from '../components/Layouts/NavbarEight';
+import Footer from '../components/PaymentProcessing/Footer';
 
 class Error extends React.Component {
     static getInitialProps({ res, err }) {
@@ -11,7 +11,7 @@ class Error extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <NavbarSix />
+                <NavbarEight />
 
                 <section className="page-title-area jarallax" data-jarallax='{"speed": 0.2}'>
                     <div className="container">
