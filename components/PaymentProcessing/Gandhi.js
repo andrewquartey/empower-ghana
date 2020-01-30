@@ -14,13 +14,7 @@ class Gandhi extends Component {
         return (
             <section className="partner-area-four">
                 <div className="container">
-                    <div
-                        style={{
-                            width: '960px',
-                            margin: '0 auto',
-                            paddingTop: '80px'
-                        }}
-                    >
+                    <div className="quote ghandi">
                         <div className="testimonial-quote group">
                             <img src="../../images/mahatma-gandhi.jpg" />
                             <div className="quote-container">

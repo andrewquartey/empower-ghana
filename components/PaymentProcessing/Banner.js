@@ -5,7 +5,7 @@ class Banner extends Component {
         return (
             <div id="home" className="payment-processing-banner">
                 <div className="container-fluid">
-                    <div className="row">
+                    <div className="row" style={{ textAlign: 'center' }}>
                         <div className="col-lg-6 col-md-12 p-0"></div>
 
                         <div className="col-12 p-0">

@@ -5,13 +5,7 @@ class Mahama extends Component {
         return (
             <section className="partner-area-four">
                 <div className="container">
-                    <div
-                        style={{
-                            width: '960px',
-                            margin: '0 auto',
-                            paddingTop: '80px'
-                        }}
-                    >
+                    <div className="quote">
                         <div className="testimonial-quote group right">
                             <img src="../../images/mahama.jpg" />
                             <div className="quote-container">

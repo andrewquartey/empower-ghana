@@ -1760,6 +1760,17 @@ p:last-child {
   position: relative;
   z-index: 1;
 }
+
+.quote {
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+
+.ghandi.quote {
+  width: 960px;
+}
+
 .circle {
   position: absolute;
   left: 0;

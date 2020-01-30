@@ -10,12 +10,12 @@ class SDGs extends Component {
             >
                 <div className="container-fluid">
                     <div className="row align-items-center sdg-pad">
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
                                 <img src={require('../../images/sdg1.png')} alt="image" />
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-content">
                                 <h2 className="white">Goal 1: No Poverty</h2>
                                 <p style={{ color: '#e3e3e3' }}>
@@ -31,12 +31,12 @@ class SDGs extends Component {
                         {/* <div className="circle">
                             <img src={require('../../images/circle.png')} alt="cricle" />{' '}
                         </div> */}
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
                                 <img src={require('../../images/sdg2.png')} alt="image" />
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-content">
                                 <h2 className="white">Goal 2: Zero Hunger</h2>
                                 <p style={{ color: '#e3e3e3' }}>
@@ -52,13 +52,13 @@ class SDGs extends Component {
                     <div className="spacer"></div>
 
                     <div className="row align-items-center sdg-pad">
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
                                 <img src={require('../../images/sdg3.png')} alt="image" />
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-content">
                                 <h2 className="white">Goal 3: Good Health & Wellbeing</h2>
                                 <p style={{ color: '#e3e3e3' }}>
@@ -70,13 +70,13 @@ class SDGs extends Component {
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
                                 <img src={require('../../images/sdg4.png')} alt="image" />
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-lg-3 col-xm-12">
                             <div className="about-content">
                                 <h2 className="white">Goal 4: Quality Education</h2>
                                 <p style={{ color: '#e3e3e3' }}>
