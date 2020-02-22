@@ -36,8 +36,9 @@ class NavbarEight extends Component {
             mainNavLinks.forEach(link => {
                 if (link.hash) {
                     let section = document.querySelector(link.hash);
-
+                    // console.log(link, section);
                     if (
+                        section &&
                         section.offsetTop <= fromTop &&
                         section.offsetTop + section.offsetHeight > fromTop
                     ) {
