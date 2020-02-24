@@ -75,7 +75,7 @@ h6:last-child {
   margin-bottom: 0;
 }
 p {
-  font-size: 15px;
+  font-size: 1.1em;
   color: #646464;
   line-height: 1.8;
   margin-bottom: 15px;
@@ -317,7 +317,7 @@ p:last-child {
   font-weight: 700;
 }
 .payment-processing-section-title p {
-  max-width: 520px;
+  /* max-width: 520px; */
   margin: 15px auto 0;
 }
 .form-group {
@@ -2168,7 +2168,7 @@ p:last-child {
   font-size: 20px;
   margin-bottom: 15px;
 }
-.single-work-process::before {
+/* .single-work-process::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -2177,7 +2177,7 @@ p:last-child {
   height: 210px;
   top: -50px;
   right: -115px;
-}
+} */
 .single-work-process h3 {
   font-size: 20px;
   font-weight: 600;

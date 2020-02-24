@@ -5,6 +5,7 @@ import Banner from '../components/PaymentProcessing/Banner';
 import Features from '../components/PaymentProcessing/Features';
 import Message from '../components/PaymentProcessing/Message';
 import HowWorks from '../components/PaymentProcessing/HowWorks';
+
 import Contact from '../components/Agency/Contact';
 import Gandhi from '../components/PaymentProcessing/Gandhi';
 import Mahama from '../components/PaymentProcessing/Mahama';
@@ -23,6 +24,7 @@ class Index extends Component {
                 <NavbarEight />
                 <Banner />
                 <Gandhi />
+
                 <Features />
                 <Mahama />
                 <SDGs />
@@ -34,7 +36,7 @@ class Index extends Component {
                 <Enoch2 />
                 <EnochMessage2 />
                 {/* <HowWorks />
-                <NewFeatures />
+                
                 <Platform />
                 <Funfact />
                 <ShopOnline /> */}
