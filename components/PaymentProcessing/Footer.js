@@ -59,7 +59,7 @@ class Footer extends Component {
 
                         <div className="col-lg-3 col-sm-6 col-xm-12">
                             <div className="single-footer-widget">
-                                <h3>Affliations</h3>
+                                <h3>Affiliations</h3>
 
                                 <ul className="list">
                                     <li>
