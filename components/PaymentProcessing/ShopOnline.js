@@ -17,7 +17,7 @@ class ShopOnline extends Component {
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
                             <div className="shop-online-image">
-                                <img src={require('../../images/man-and-women.png')} alt="shop" />
+                                <img src={require('/images/man-and-women.png')} alt="shop" />
                             </div>
                         </div>
 

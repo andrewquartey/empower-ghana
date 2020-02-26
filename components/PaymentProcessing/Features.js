@@ -82,7 +82,7 @@ class Features extends Component {
                         </div>
 
                         <div className="dashboard-image">
-                            <img src={require('../../images/banner-chart-home.jpg')} alt="image" />
+                            <img src={require('/images/banner-chart-home.jpg')} alt="image" />
                         </div>
                     </div>
                 </section> */}

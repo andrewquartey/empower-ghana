@@ -16,7 +16,7 @@ class Gandhi extends Component {
                 <div className="container">
                     <div className="quote">
                         <div className="testimonial-quote group">
-                            <img src="../../images/magret.png" />
+                            <img src="/images/magret.png" />
                             <div className="quote-container">
                                 <blockquote>
                                     <p>

@@ -11,13 +11,13 @@ class VolunteerBanner extends Component {
                         <div className="col-12 p-0">
                             <div
                                 style={{
-                                    background: `url('../../images/akpen.jpg')`,
+                                    background: `url('/images/akpen.jpg')`,
                                     backgroundSize: 'cover',
                                     height: '650px'
                                 }}
                             >
                                 {/* <div className="payment-processing-banner-image">
-                                <img src={require('../../images/banner.jpg')} alt="image" />
+                                <img src={require('/images/banner.jpg')} alt="image" />
                             </div> */}
                                 <div className="banner-text">
                                     <h1 style={{ color: 'white', marginBottom: '10px' }}>

@@ -7,7 +7,7 @@ class Mahama extends Component {
                 <div className="container">
                     <div className="quote">
                         <div className="testimonial-quote group right">
-                            <img src="../../images/mahama.jpg" />
+                            <img src="/images/mahama.jpg" />
                             <div className="quote-container">
                                 <div>
                                     <blockquote>

@@ -71,10 +71,7 @@ class NavbarEight extends Component {
                     <div className="container">
                         <Link href="/payment-processing">
                             <a className="navbar-brand">
-                                <img
-                                    src={require('../../images/empowerghana-logo.jpg')}
-                                    alt="logo"
-                                />
+                                <img src={require('/images/empowerghana-logo.jpg')} alt="logo" />
                             </a>
                         </Link>
 
