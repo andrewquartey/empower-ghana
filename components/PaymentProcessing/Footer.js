@@ -12,7 +12,7 @@ class Footer extends Component {
                                 <div className="logo">
                                     <a href="#">
                                         <img
-                                            src={require('/images/empowerghana-logo.jpg')}
+                                            src={require('../../images/empowerghana-logo.jpg')}
                                             alt="logo"
                                         />
                                     </a>

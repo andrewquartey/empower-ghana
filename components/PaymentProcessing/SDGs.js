@@ -12,7 +12,7 @@ class SDGs extends Component {
                     <div className="row align-items-center sdg-pad">
                         <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
-                                <img src={require('/images/sdg1.png')} alt="image" />
+                                <img src={require('../../images/sdg1.png')} alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-3 col-xm-12">
@@ -33,7 +33,7 @@ class SDGs extends Component {
                         </div> */}
                         <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
-                                <img src={require('/images/sdg2.png')} alt="image" />
+                                <img src={require('../../images/sdg2.png')} alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-3 col-xm-12">
@@ -54,7 +54,7 @@ class SDGs extends Component {
                     <div className="row align-items-center sdg-pad">
                         <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
-                                <img src={require('/images/sdg3.png')} alt="image" />
+                                <img src={require('../../images/sdg3.png')} alt="image" />
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ class SDGs extends Component {
 
                         <div className="col-lg-3 col-xm-12">
                             <div className="about-image">
-                                <img src={require('/images/sdg4.png')} alt="image" />
+                                <img src={require('../../images/sdg4.png')} alt="image" />
                             </div>
                         </div>
 
