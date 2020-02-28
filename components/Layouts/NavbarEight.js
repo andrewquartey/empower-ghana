@@ -61,15 +61,15 @@ class NavbarEight extends Component {
             <React.Fragment>
                 <SeoSection
                     title="Empower Ghana"
-                    desc="Genial is a React Next Landing Templates. This has been built with React, Next.js, Express.js, and ES6+."
-                    url="https://genial-react.envytheme.com/payment-processing"
+                    desc="Empower Ghana is an initiative under the Institute for Leaders Education and Development (iLEAD) International. It has a team headed by a programmes coordinator who together with his team runs SDGs clubs among young people in Ghana."
+                    url="https://empowerghana.org"
                 />
                 <nav
                     id="navbar"
                     className="navbar navbar-expand-lg navbar-style-five navbar-light bg-light"
                 >
                     <div className="container">
-                        <Link href="/payment-processing">
+                        <Link href="/">
                             <a className="navbar-brand">
                                 <img
                                     src={require('../../images/empowerghana-logo.jpg')}
