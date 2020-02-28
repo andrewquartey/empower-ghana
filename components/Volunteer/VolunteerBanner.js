@@ -11,7 +11,7 @@ class VolunteerBanner extends Component {
                         <div className="col-12 p-0">
                             <div
                                 style={{
-                                    background: `url('/images/akpen.jpg')`,
+                                    background: `url(${require('../../images/akpen.jpg')}`,
                                     backgroundSize: 'cover',
                                     height: '650px'
                                 }}

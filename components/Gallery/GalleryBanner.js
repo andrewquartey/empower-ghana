@@ -11,7 +11,7 @@ class GalleryBanner extends Component {
                         <div className="col-12 p-0">
                             <div
                                 style={{
-                                    background: `url('/images/gallery.jpg')`,
+                                    background: `url(${require('../../images/gallery.jpg')})`,
                                     backgroundSize: 'cover',
                                     height: '650px'
                                 }}
