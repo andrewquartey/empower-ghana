@@ -11,7 +11,7 @@ class Banner extends Component {
                         <div className="col-12 p-0">
                             <div
                                 style={{
-                                    background: `url('/images/banner.jpg')`,
+                                    background: `url(${require('../../images/banner.jpg')})`,
                                     backgroundSize: 'cover',
                                     height: '650px'
                                 }}
