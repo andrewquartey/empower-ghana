@@ -7,7 +7,7 @@ class Enoch extends Component {
                 <div className="container">
                     <div className="quote">
                         <div className="testimonial-quote group right">
-                            <img src={require('../../images/mahama.jpg')} />
+                            <img src={require('../../images/enoch.jpg')} />
                             <div className="quote-container">
                                 <div>
                                     <blockquote>

@@ -16,7 +16,7 @@ class Gandhi extends Component {
                 <div className="container">
                     <div className="quote">
                         <div className="testimonial-quote group">
-                            <img src={require('../../images/mahatma-gandhi.jpg')} />
+                            <img src={require('../../images/enoch.jpg')} />
                             <div className="quote-container">
                                 <blockquote>
                                     <p>
