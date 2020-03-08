@@ -116,7 +116,8 @@ class Footer extends Component {
                             <div className="col-lg-7 col-md-7">
                                 <p>
                                     <i className="far fa-copyright"></i> {getCurrentYear()}{' '}
-                                    <a href="/">Genial</a>. All Rights Reserved
+                                    <a href="https://ileadafrica.org">iLEAD Africa</a>. All Rights
+                                    Reserved
                                 </p>
                             </div>
 
