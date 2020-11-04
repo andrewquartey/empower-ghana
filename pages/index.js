@@ -6,7 +6,6 @@ import Features from '../components/PaymentProcessing/Features';
 import Message from '../components/PaymentProcessing/Message';
 import Contact from '../components/Agency/Contact';
 import Gandhi from '../components/PaymentProcessing/Gandhi';
-import Mahama from '../components/PaymentProcessing/Mahama';
 import SDGs from '../components/PaymentProcessing/SDGs';
 import Magret from '../components/PaymentProcessing/Magret';
 import MagretMessage from '../components/PaymentProcessing/MagretMessage';
@@ -23,10 +22,9 @@ class Index extends Component {
                 <Banner />
                 <Gandhi />
                 <Features />
-                <Mahama />
+                <Magret />
                 <SDGs />
                 <Message />
-                <Magret />
                 <MagretMessage />
                 <Enoch />
                 <EnochMessage />
