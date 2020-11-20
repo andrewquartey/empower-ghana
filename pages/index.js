@@ -18,7 +18,7 @@ class Index extends Component {
     render() {
         return (
             <React.Fragment>
-                <NavbarEight />
+                <NavbarEight path={'home'} />
                 <Banner />
                 <Gandhi />
                 <Features />

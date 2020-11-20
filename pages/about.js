@@ -8,7 +8,7 @@ import HowWorks from '../components/PaymentProcessing/HowWorks';
 const About = () => {
     return (
         <React.Fragment>
-            <NavbarEight />
+            <NavbarEight path={'about'} />
             <AboutBanner />
             <HowWorks />
 

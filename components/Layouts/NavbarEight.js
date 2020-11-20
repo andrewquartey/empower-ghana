@@ -51,6 +51,11 @@ class NavbarEight extends Component {
         });
     };
 
+    // static getInitialProps({ pathname }) {
+    //     console.log(pathname);
+    //     return { pathname };
+    // }
+
     render() {
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'navbar-collapse collapse show';
@@ -94,25 +99,49 @@ class NavbarEight extends Component {
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <a offset={() => 100} className="nav-link active" href="/">
+                                    <a
+                                        offset={() => 100}
+                                        className={
+                                            this.props.path == 'home'
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                        href="/"
+                                    >
                                         Home
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a offset={() => 0} className="nav-link" href="/about">
+                                    <a
+                                        offset={() => 0}
+                                        className={
+                                            this.props.path == 'about'
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                        href="/about"
+                                    >
                                         About Us
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a offset={() => 0} className="nav-link" href="/gallery">
+                                    <a
+                                        offset={() => 0}
+                                        className={
+                                            this.props.path == 'gallery'
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                        href="/gallery"
+                                    >
                                         Gallery
                                     </a>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <a offset={() => 0} className="nav-link" href="/events">
                                         News & Events
                                     </a>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <a
                                         onClick={this.toggleNavbar}
